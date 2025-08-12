@@ -1,0 +1,183 @@
+===============================================================================
+                        JARVIS VOICE COMMANDS MANUAL
+===============================================================================
+
+WAKE WORD:
+----------
+"Jarvis" - Activates Jarvis and makes him ready to listen for commands
+         - Say this first, then give your command when Jarvis responds
+
+
+TIME & DATE COMMANDS:
+--------------------
+"What time is it?" / "Time"
+    → Tells you the current time in 12-hour format (e.g., "3:45 PM")
+
+"What date is it?" / "Date"  
+    → Tells you today's date (e.g., "Tuesday, December 10, 2024")
+
+
+WEB BROWSING COMMANDS:
+---------------------
+"Open Google" / "Google"
+    → Opens Google.com in your default web browser
+
+"Open YouTube" / "YouTube"
+    → Opens YouTube.com in your default web browser
+
+"Open GitHub" / "GitHub"
+    → Opens GitHub.com in your default web browser
+
+
+APPLICATION COMMANDS:
+--------------------
+"Open Notepad" / "Notepad"
+    → Launches Windows Notepad text editor
+
+"Open Calculator" / "Calculator"
+    → Launches Windows Calculator application
+
+"Open File Explorer" / "Explorer"
+    → Opens Windows File Explorer for browsing files
+
+
+SYSTEM COMMANDS:
+---------------
+"Sleep"
+    → Puts your computer to sleep mode (low power state)
+
+"Help" / "What can you do?"
+    → Jarvis lists all available commands he can execute
+
+
+CONTROL COMMANDS:
+----------------
+"Goodbye" / "Exit" / "Quit"
+    → Shuts down Jarvis and exits the program
+
+
+===============================================================================
+                              USAGE EXAMPLES
+===============================================================================
+
+Example Conversation 1:
+-----------------------
+You: "Jarvis"
+Jarvis: "Good day, sir. How may I assist you?"
+You: "What time is it?"
+Jarvis: "The current time is 3:45 PM"
+
+Example Conversation 2:
+-----------------------
+You: "Jarvis"
+Jarvis: "Yes, sir? What can I do for you?"
+You: "Open Google"
+Jarvis: "Opening Google" (browser opens to Google.com)
+
+Example Conversation 3:
+-----------------------
+You: "Jarvis"
+Jarvis: "At your service."
+You: "Sleep"
+Jarvis: "Putting system to sleep" (computer goes to sleep)
+
+Example Conversation 4:
+-----------------------
+You: "Jarvis"
+Jarvis: "Jarvis at your service."
+You: "Help"
+Jarvis: "Here are the commands I understand" (lists all commands)
+
+
+===============================================================================
+                              IMPORTANT NOTES
+===============================================================================
+
+SPEECH RECOGNITION:
+------------------
+• Speak clearly and at normal volume
+• Wait for Jarvis to greet you before giving commands
+• Commands are processed using Google's speech recognition (requires internet)
+• If Jarvis doesn't understand, he'll ask you to repeat or say "help"
+
+COMMAND TIMEOUT:
+---------------
+• Jarvis waits 3 seconds for your command after greeting
+• If no command is detected, he'll say "Standing by" and return to listening
+• Say "Jarvis" again to activate him for another command
+
+TROUBLESHOOTING:
+---------------
+• If Jarvis doesn't respond: Check microphone permissions and volume
+• If speech isn't recognized: Speak more clearly or check internet connection
+• If commands don't work: Make sure applications are installed (Notepad, Calculator, etc.)
+
+SYSTEM REQUIREMENTS:
+-------------------
+• Windows operating system
+• Working microphone
+• Internet connection (for speech recognition)
+• Audio output (speakers/headphones)
+
+
+===============================================================================
+                           COMMAND VARIATIONS
+===============================================================================
+
+The following phrases will trigger the same commands:
+
+TIME COMMANDS:
+• "What time is it?"
+• "Time"
+• "Tell me the time"
+• "Current time"
+
+DATE COMMANDS:
+• "What date is it?"
+• "Date"
+• "Today's date"
+• "What day is it?"
+
+WEB COMMANDS:
+• "Open Google" or just "Google"
+• "Open YouTube" or just "YouTube"  
+• "Open GitHub" or just "GitHub"
+
+APP COMMANDS:
+• "Open Notepad" or just "Notepad"
+• "Open Calculator" or just "Calculator"
+• "Open File Explorer" or "Explorer"
+
+HELP COMMANDS:
+• "Help"
+• "What can you do?"
+• "List commands"
+
+EXIT COMMANDS:
+• "Goodbye"
+• "Exit"
+• "Quit"
+• "Shut down"
+
+
+===============================================================================
+                              QUICK REFERENCE
+===============================================================================
+
+BASIC WORKFLOW:
+1. Say "Jarvis" (wake word)
+2. Wait for greeting response
+3. Give your command
+4. Jarvis executes and responds
+5. Repeat from step 1 for next command
+
+MOST USEFUL COMMANDS:
+• Time/Date - Get current time and date
+• Open Google - Quick web search
+• Open Calculator - Quick calculations
+• Help - When you forget available commands
+• Goodbye - Clean exit from Jarvis
+
+Remember: Always say "Jarvis" first to activate the system!
+
+===============================================================================
