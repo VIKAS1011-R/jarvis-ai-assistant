@@ -29,7 +29,10 @@ Before submitting changes, make sure to test:
 
 ```bash
 # Test TTS engines
-python test_all_tts.py
+python tests/test_all_tts.py
+
+# Run all tests
+python tests/run_tests.py
 
 # Test the main application
 python jarvis.py
@@ -142,9 +145,9 @@ def process_voice_command(command: str) -> Optional[str]:
 - **Performance optimizations**
 
 ### Medium Priority
-- **GUI interface**
 - **Configuration management**
 - **Plugin system**
+- **Enhanced voice commands**
 - **Voice training/customization**
 
 ### Documentation

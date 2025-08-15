@@ -3,6 +3,10 @@
 Test all TTS engines to find the best one for your system
 """
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 def test_windows_sapi():
     """Test Windows SAPI TTS"""
     print("Testing Windows SAPI TTS...")

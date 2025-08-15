@@ -2,6 +2,16 @@
                         JARVIS VOICE COMMANDS MANUAL
 ===============================================================================
 
+RUNNING JARVIS:
+--------------
+Console Version: python jarvis.py
+Windows: run_jarvis.bat
+Linux/Mac: ./run_jarvis.sh
+
+===============================================================================
+                        JARVIS VOICE COMMANDS MANUAL
+===============================================================================
+
 WAKE WORD:
 ----------
 "Jarvis" - Activates Jarvis and makes him ready to listen for commands
@@ -39,6 +49,87 @@ APPLICATION COMMANDS:
 
 "Open File Explorer" / "Explorer"
     → Opens Windows File Explorer for browsing files
+
+
+WEATHER COMMANDS:
+-----------------
+"What's the weather?" / "Weather"
+    → Gets current weather for your location
+
+"Weather in [location]" / "Weather for London"
+    → Gets weather for a specific location
+
+"Weather forecast" / "Forecast"
+    → Gets weather forecast for next few days
+
+
+CALCULATOR COMMANDS:
+-------------------
+"Calculate 15 plus 25" / "What's 12 times 8"
+    → Performs mathematical calculations
+
+"Convert 5 feet to meters" / "10 pounds to kilograms"
+    → Converts between different units (length, weight, volume, temperature)
+
+"Square root of 144" / "2 to the power of 8"
+    → Advanced mathematical functions
+
+
+SYSTEM INFORMATION COMMANDS:
+----------------------------
+"System information" / "System info"
+    → Shows CPU, memory, and system details
+
+"Disk space" / "Storage"
+    → Shows available disk space
+
+"Battery level" / "Battery"
+    → Shows battery status (laptops only)
+
+"Running processes" / "Task manager"
+    → Shows top CPU-using processes
+
+"Network info" / "IP address"
+    → Shows network interface information
+
+"Uptime"
+    → Shows how long the system has been running
+
+
+TIMER & REMINDER COMMANDS:
+--------------------------
+"Start timer for 5 minutes" / "Set timer 30 seconds"
+    → Starts a countdown timer
+
+"Stop timer" / "Cancel timer"
+    → Stops active timers
+
+"List timers" / "Show timers"
+    → Shows all active timers
+
+"Remind me to check oven in 10 minutes"
+    → Sets a reminder with custom message
+
+
+FILE MANAGEMENT COMMANDS:
+-------------------------
+"Create folder Documents" / "Make folder called Photos"
+    → Creates a new folder on desktop
+
+"List files" / "Show files"
+    → Lists files and folders on desktop
+
+
+ENTERTAINMENT COMMANDS:
+----------------------
+"Tell me a joke" / "Joke" / "Make me laugh"
+    → Jarvis tells you a random joke from online APIs
+
+"Tell me a programming joke" / "Programming joke"
+    → Jarvis tells you a programming/coding related joke
+
+"Tell me a dad joke" / "Dad joke"
+    → Jarvis tells you a classic dad joke
 
 
 SYSTEM COMMANDS:
@@ -85,6 +176,41 @@ Example Conversation 4:
 -----------------------
 You: "Jarvis"
 Jarvis: "Jarvis at your service."
+You: "What's the weather?"
+Jarvis: "Current weather in your location: Partly cloudy, 22°C or 72°F..."
+
+Example Conversation 5:
+-----------------------
+You: "Jarvis"
+Jarvis: "Ready for your orders, sir."
+You: "Convert 10 feet to meters"
+Jarvis: "10 feet equals 3.048 meters"
+
+Example Conversation 6:
+-----------------------
+You: "Jarvis"
+Jarvis: "How may I assist you?"
+You: "Start timer for 5 minutes"
+Jarvis: "Timer started for 5 minutes"
+
+Example Conversation 7:
+-----------------------
+You: "Jarvis"
+Jarvis: "At your service."
+You: "System information"
+Jarvis: "System: Windows 11, CPU: 8 cores at 15% usage, Memory: 8GB of 16GB used"
+
+Example Conversation 8:
+-----------------------
+You: "Jarvis"
+Jarvis: "Yes, sir?"
+You: "Tell me a joke"
+Jarvis: "Why don't scientists trust atoms? Because they make up everything!"
+
+Example Conversation 9:
+-----------------------
+You: "Jarvis"
+Jarvis: "Ready for your orders, sir."
 You: "Help"
 Jarvis: "Here are the commands I understand" (lists all commands)
 
@@ -148,6 +274,11 @@ APP COMMANDS:
 • "Open Calculator" or just "Calculator"
 • "Open File Explorer" or "Explorer"
 
+JOKE COMMANDS:
+• "Tell me a joke" or "Joke" or "Make me laugh"
+• "Tell me a programming joke" or "Programming joke"
+• "Tell me a dad joke" or "Dad joke"
+
 HELP COMMANDS:
 • "Help"
 • "What can you do?"
@@ -173,8 +304,12 @@ BASIC WORKFLOW:
 
 MOST USEFUL COMMANDS:
 • Time/Date - Get current time and date
+• Weather - Get current weather and forecasts
+• Calculator - Perform math and unit conversions
+• System Info - Check CPU, memory, disk space, battery
+• Timers - Set countdown timers and reminders
 • Open Google - Quick web search
-• Open Calculator - Quick calculations
+• Tell me a joke - Get entertained with humor
 • Help - When you forget available commands
 • Goodbye - Clean exit from Jarvis
 

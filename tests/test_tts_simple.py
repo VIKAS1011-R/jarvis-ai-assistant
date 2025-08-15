@@ -3,6 +3,10 @@
 Simple TTS test to diagnose text-to-speech issues
 """
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 def test_basic_pyttsx3():
     """Test basic pyttsx3 without our wrapper"""
     print("Testing basic pyttsx3...")

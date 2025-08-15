@@ -41,9 +41,14 @@ A voice-activated AI assistant built with Python, featuring wake word detection 
    pip install -r requirements.txt
    ```
 
-4. **Test TTS engines**
+4. **Calibrate microphone (recommended)**
    ```bash
-   python test_all_tts.py
+   python calibrate_microphone.py
+   ```
+
+5. **Test TTS engines**
+   ```bash
+   python tests/test_all_tts.py
    ```
 
 5. **Run Jarvis**
@@ -75,7 +80,10 @@ jarvis-ai-assistant/
 ├── jarvis.py                    # Main application
 ├── available_commands.txt       # Command manual
 ├── fix_distutils.py            # Dependency fixer
-├── test_all_tts.py            # TTS engine tester
+├── tests/                     # Test files
+│   ├── test_all_tts.py       # TTS engine tester
+│   ├── test_continuous_listening.py  # Continuous listening tests
+│   └── run_tests.py          # Test runner
 ├── modules/
 │   ├── config.py              # Configuration management
 │   ├── hotword_detection.py   # Wake word detection
@@ -114,9 +122,14 @@ Jarvis supports multiple TTS engines with automatic fallback:
 python fix_distutils.py
 ```
 
+**Microphone too sensitive / picking up noise**
+```bash
+python calibrate_microphone.py
+```
+
 **TTS not working**
 ```bash
-python test_all_tts.py
+python tests/test_all_tts.py
 ```
 
 **Wake word not detected**
@@ -162,7 +175,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you encounter any issues:
 
 1. Check the [available_commands.txt](available_commands.txt) manual
-2. Run `python test_all_tts.py` to diagnose TTS issues
+2. Run `python tests/test_all_tts.py` to diagnose TTS issues
 3. Run `python fix_distutils.py` for dependency issues
 4. Open an issue on GitHub with error details
 
