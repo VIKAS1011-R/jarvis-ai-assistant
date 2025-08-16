@@ -120,6 +120,141 @@ FILE MANAGEMENT COMMANDS:
     → Lists files and folders on desktop
 
 
+WIKIPEDIA COMMANDS:
+------------------
+"Search Wikipedia for Python" / "Wiki artificial intelligence"
+    → Searches Wikipedia and provides article summaries
+
+"Wikipedia machine learning" / "Look up quantum physics on Wikipedia"
+    → Gets detailed information from Wikipedia articles
+
+
+NEWS COMMANDS:
+--------------
+"Latest news" / "News headlines" / "What's in the news"
+    → Gets current top news headlines
+
+"News about technology" / "Search news for climate change"
+    → Searches for news about specific topics
+
+
+EMAIL COMMANDS:
+---------------
+"Check email" / "Read my emails" / "Get recent emails"
+    → Checks and reads recent email messages (requires setup)
+
+"Send email" / "Compose email"
+    → Helps compose and send emails (requires setup)
+
+"Email status" / "Email setup"
+    → Shows email configuration status
+
+
+CALENDAR COMMANDS:
+------------------
+"Today's events" / "What's on my calendar today"
+    → Shows events scheduled for today
+
+"Upcoming events" / "Next week's calendar" / "Future events"
+    → Shows upcoming events and appointments
+
+"Calendar summary" / "Calendar status"
+    → Provides overview of calendar events
+
+"Schedule meeting tomorrow at 2 PM" / "Add event lunch at noon"
+    → Adds new events to calendar
+
+
+MUSIC COMMANDS:
+---------------
+"Play music" / "Play The Beatles" / "Play jazz music"
+    → Plays music or searches for specific artists/songs
+
+"Pause music" / "Stop music"
+    → Pauses current music playback
+
+"Next song" / "Skip track" / "Previous song"
+    → Controls music playback
+
+"Set volume to 75" / "Volume 50" / "What's the volume"
+    → Controls system volume level
+
+"Search music for classical" / "Find playlist rock music"
+    → Searches for music and playlists
+
+
+WIKIPEDIA COMMANDS:
+------------------
+"Search Wikipedia for Python" / "Wiki artificial intelligence"
+    → Searches Wikipedia and provides article summaries
+
+"Wikipedia machine learning" / "Look up quantum physics on Wikipedia"
+    → Gets detailed information from Wikipedia articles
+
+
+NEWS COMMANDS:
+--------------
+"Latest news" / "News headlines"
+    → Gets current news from multiple sources
+
+"Tech news" / "Technology news"
+    → Gets latest technology and science news
+
+"Science news" / "Science headlines"
+    → Gets latest science and research news
+
+"Search news about climate change" / "Find news about elections"
+    → Searches for news about specific topics
+
+
+EMAIL COMMANDS:
+---------------
+"Check email" / "Email summary"
+    → Shows email status and setup information
+
+"Recent emails" / "Latest emails"
+    → Lists recent email messages
+
+"Read email 1" / "Read first email"
+    → Reads preview of specific email
+
+
+CALENDAR COMMANDS:
+------------------
+"Add meeting tomorrow at 2 PM" / "Schedule appointment next Monday at 10 AM"
+    → Adds events to your personal calendar
+
+"Today's schedule" / "What's on my calendar today"
+    → Shows today's scheduled events
+
+"Upcoming events" / "What's coming up"
+    → Shows upcoming events for the next week
+
+"Calendar summary"
+    → Shows overview of your calendar
+
+
+MUSIC COMMANDS:
+---------------
+"Play music" / "Resume music"
+    → Resumes music playback
+
+"Play The Beatles" / "Play jazz music"
+    → Searches and plays specific music
+
+"Pause music" / "Stop music"
+    → Pauses current music playback
+
+"Next song" / "Skip track"
+    → Skips to next track
+
+"Previous song" / "Go back"
+    → Goes to previous track
+
+"Set volume to 50" / "Volume 75"
+    → Adjusts system volume level
+
+
 ENTERTAINMENT COMMANDS:
 ----------------------
 "Tell me a joke" / "Joke" / "Make me laugh"
@@ -209,6 +344,34 @@ Jarvis: "Why don't scientists trust atoms? Because they make up everything!"
 
 Example Conversation 9:
 -----------------------
+You: "Jarvis"
+Jarvis: "At your service."
+You: "Search Wikipedia for machine learning"
+Jarvis: "According to Wikipedia: Machine learning is a field of study in artificial intelligence..."
+
+Example Conversation 10:
+------------------------
+You: "Jarvis"
+Jarvis: "How may I assist you?"
+You: "Latest news headlines"
+Jarvis: "Here are the top 3 news headlines: 1. Technology sector shows growth..."
+
+Example Conversation 11:
+------------------------
+You: "Jarvis"
+Jarvis: "Ready for your orders, sir."
+You: "Play music by The Beatles"
+Jarvis: "Opening Spotify to search for 'The Beatles'"
+
+Example Conversation 12:
+------------------------
+You: "Jarvis"
+Jarvis: "Yes, sir?"
+You: "Today's calendar events"
+Jarvis: "You have 2 events today: 1. Team meeting at 10 AM, 2. Lunch at 12:30 PM"
+
+Example Conversation 13:
+------------------------
 You: "Jarvis"
 Jarvis: "Ready for your orders, sir."
 You: "Help"
@@ -305,8 +468,12 @@ BASIC WORKFLOW:
 MOST USEFUL COMMANDS:
 • Time/Date - Get current time and date
 • Weather - Get current weather and forecasts
+• Wikipedia - Search and get article summaries
+• News - Get latest headlines and updates
 • Calculator - Perform math and unit conversions
 • System Info - Check CPU, memory, disk space, battery
+• Music - Play songs, control volume, manage playback
+• Calendar - Check events and schedule appointments
 • Timers - Set countdown timers and reminders
 • Open Google - Quick web search
 • Tell me a joke - Get entertained with humor

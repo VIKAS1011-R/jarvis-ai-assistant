@@ -3,6 +3,7 @@
 ## What Was Removed
 
 ### GUI Components
+
 - ✅ `modules/jarvis_gui.py` - Pygame-based GUI module
 - ✅ `jarvis_with_gui.py` - GUI integration file
 - ✅ `launch_jarvis_gui.py` - GUI launcher
@@ -13,6 +14,7 @@
 - ✅ `setup_web_interface.sh` - Linux setup script
 
 ### Dependencies Cleaned
+
 - ✅ Removed `pygame>=2.5.0` from requirements.txt
 - ✅ Removed `numpy>=1.21.0` from requirements.txt
 - ✅ Updated available_commands.txt to remove GUI references
@@ -21,6 +23,7 @@
 ## What Remains (Core Functionality)
 
 ### Core Files
+
 - ✅ `jarvis.py` - Main voice assistant (console-only)
 - ✅ `modules/` - All core modules intact
 - ✅ `resources/` - Wake word models and assets
@@ -28,6 +31,7 @@
 - ✅ `run_jarvis.bat` / `run_jarvis.sh` - Launch scripts
 
 ### Core Dependencies
+
 - ✅ `pvporcupine==3.0.2` - Wake word detection
 - ✅ `python-dotenv==1.0.0` - Environment configuration
 - ✅ `pyaudio==0.2.11` - Audio processing
@@ -40,6 +44,7 @@
 ✅ **JARVIS is fully functional as a console-based voice assistant**
 
 ### Working Features
+
 - Wake word detection ("Jarvis")
 - Speech recognition
 - Text-to-speech (Windows SAPI + Edge TTS)
@@ -48,6 +53,7 @@
 - Clean shutdown
 
 ### How to Run
+
 ```bash
 # Direct execution
 python jarvis.py
@@ -60,6 +66,7 @@ run_jarvis.bat
 ```
 
 ### Testing
+
 ```bash
 # Run all tests
 python tests/run_tests.py

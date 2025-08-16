@@ -135,6 +135,12 @@ dmypy.json
 temp_audio_*
 .DS_Store
 Thumbs.db
+temp_music_player.html
+
+# Email security - NEVER commit these!
+.kiro/email/
+email_config.enc
+email.key
 
 # IDE
 .vscode/
